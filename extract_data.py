@@ -27,8 +27,8 @@ def xmlparser(file):
     print order
 
     f1 = open('result1.csv',  'w')
-    f1.write(','.join(ROW) + '\n')
-    f1.write(','.join([i.encode('utf-8') for i in order]) + '\n\n\n\n')
+    f1.write(','.join(ROW) + '\r\n')
+    f1.write(','.join([i.encode('utf-8') for i in order]))
 
     num_of_products = extract_range(sheet.get('{' + NS['ss'] + '}Name'))
     print num_of_products

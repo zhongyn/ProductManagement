@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import xml.etree.ElementTree as ET
 from openpyxl import Workbook
+from datetime import datetime
 
 
 NS = {'default': "urn:schemas-microsoft-com:office:spreadsheet", 'o': "urn:schemas-microsoft-com:office:office", 'x': "urn:schemas-microsoft-com:office:excel", 'ss': "urn:schemas-microsoft-com:office:spreadsheet", 'html': "http://www.w3.org/TR/REC-html40"}
@@ -20,6 +21,7 @@ def xmlparser(file):
     print abbr, company.encode('utf-8')
     order_id = table[3][4][0].text
     end_time = table[4][4][0].text
+    end_time = end_time[0:10] + ' ' + end_time[11:19]
 
     agent = table[4][8][0].text
     print agent.encode('utf-8')
@@ -61,12 +63,16 @@ def xmlparser(file):
 
     print p
 
-    f2 = open('result2.csv',  'w')
+    wb1 = Workbook()
+    ws1 = wb1.active
 
-    f2.write(','.join(PRODUCT) + '\n')
-    for r in p:
-        f2.write(','.join([i.encode('utf-8') for i in r]) + '\n')
+    for i in xrange(len(PRODUCT)):
+        ws1.cell(row = 1, column = i + 1).value = PRODUCT[i]
 
+    for i in xrange(num_of_products):
+        for j in xrange(len(PRODUCT)):
+            ws1.cell(row = i + 2, column = j + 1).value = p[i][j]
+    wb1.save('res1.xlsx')
 
 def extract_company(title):
     abbr = ''
