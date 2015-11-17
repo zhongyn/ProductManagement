@@ -1,0 +1,82 @@
+VFP代码如下
+
+lcFileName=GETFILE()
+if type('lcFileName')!='C'OR EMPTY(lcFileName)
+   RETURN .F.
+ENDIF
+Release loExcel
+loExcel=Createobject("excel.application")
+loBookexcel=loExcel.workbooks.Open(lcFileName)
+loExcel.Worksheets(2).Activate
+o_SheetName=loExcel.Application.ActiveSheet.Name
+UsedRange =loBookexcel.worksheets(o_SheetName).UsedRange
+o_rows=UsedRange.Rows.Count
+o_cols=UsedRange.Columns.Count
+oThisform.ConTop.cmdAdd.click()
+select tb_销售订单 
+replace 询号  with loExcel.cells(3,5).Value in tb_销售订单
+replace 公司名  with loExcel.cells(3,10).Value in tb_销售订单
+replace 联系人  with loExcel.cells(4,10).Value in tb_销售订单
+lcKsbm=loExcel.cells(1,2).Value
+lcKsbm=allt(cast(lcKsbm as c(245)))
+lcKsbm=left(lcKsbm,4)
+replace 客商代码  with lcKsbm in tb_销售订单
+
+lcKsmc=GetColValue("wldw","dwmc","dwbm='"+lcKsbm+"'")
+replace 客商名称  with lcKsmc in tb_销售订单
+
+ldRq=loExcel.cells(4,5).Value
+ldRq=cast(ldRq as T)
+replace 结束日期  with ldRq in tb_销售订单
+
+select tb_销售订单_b
+go top 
+for i=14 to o_rows-3
+  lcRow=loExcel.cells(i,1).Value  &&备注1
+  lcCpname=loExcel.cells(i,5).Value  &&产品名称
+  lcQsjg=loExcel.cells(i,7).Value  &&启始价格
+  lcDw=loExcel.cells(i,8).Value  &&单位
+  lcSl=loExcel.cells(i,9).Value  &&数量
+  lcBj=loExcel.cells(i,10).Value  &&报价
+  lcTzgyings=loExcel.cells(i,23).Value  &&备注2
+  select tb_销售订单_b
+  if i>14
+     append blank 
+  endif
+  replace pzmc with lcCpname,行 with lcRow,Jldw WITH lcDw,数量 with cast(lcSl as n(18,6)) in tb_销售订单_b
+  replace 含税单价 with cast(lcBj as n(18,6)),备注2 with   lcTzgyings in tb_销售订单_b
+  replace 价税合计 with 数量*含税单价 in tb_销售订单_b
+  if CAST('12345' as n)<>0  
+     replace pzbm with lcCpname in tb_销售订单_b
+  endif
+  lcRow=cast(lcRow as c(245))
+  lnAt=AT('.',lcRow)
+  lcPzmc=''
+  lcGgxh='' 
+  if lnAt>0
+     lcPzmc=substr(lcRow,1,lnAt)  
+     lcGgxh=allt(substr(lcRow,lnAt+1,1000))
+     lnAt=AT(' ',lcPzmc)
+     if lnAt>0
+        lcPzmc=allt(substr(lcPzmc,lnAt+1,1000))
+     endif
+     if right(lcPzmc,1)='.'
+        lcPzmc=left(lcPzmc,len(lcPzmc)-1)
+     endif
+     if left(lcGgxh,1)='.'
+        lcGgxh=substr(lcGgxh,2,len(lcGgxh)-1)
+     endif
+     if right(lcGgxh,2)='..'
+        lcGgxh=left(lcGgxh,len(lcGgxh)-2)
+     endif
+     if right(lcGgxh,1)='.'
+        lcGgxh=left(lcGgxh,len(lcGgxh)-1)
+     endif
+  endif
+  replace pzmc with lcPzmc,ggxh with lcGgxh in tb_销售订单_b
+endfor
+select tb_销售订单_b
+delete from tb_销售订单_b where nvl(数量,0)=0
+GO TOP 
+Release loExcel
+oThisform.Refresh

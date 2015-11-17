@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"  xmlns:o="urn:schemas-microsoft-com:office:office"  xmlns:x="urn:schemas-microsoft-com:office:excel"  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"  xmlns:html="http://www.w3.org/TR/REC-html40">
+
+<Styles>
+<Style ss:ID="Default">
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s1">
+<Font ss:Size="14" ss:Bold="1"/>
+</Style>
+<Style ss:ID="s2">
+<Alignment ss:Horizontal="Right" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="8"/>
+</Style>
+<Style ss:ID="s3">
+<Alignment ss:Horizontal="Right" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="8"/>
+</Style>
+<Style ss:ID="s4">
+<Alignment ss:Horizontal="Right"/>
+<Font ss:Size="8"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s5">
+<Alignment ss:Horizontal="Left"/>
+<Font ss:Size="8" ss:Bold="1"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s6">
+<Alignment ss:Horizontal="Right" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="8"/>
+</Style>
+<Style ss:ID="s7">
+<Alignment ss:Horizontal="Left"/>
+<Font ss:Size="8" ss:Bold="1"/>
+<NumberFormat ss:Format="General Date"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s8">
+<Font ss:Size="8" ss:Bold="1" ss:Color="#0000FF" ss:Underline="Single"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s9">
+<Alignment ss:Horizontal="Right" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="8"/>
+</Style>
+<Style ss:ID="s10">
+<Font ss:Size="12" ss:Bold="1"/>
+</Style>
+<Style ss:ID="s11">
+<Font ss:Size="8" ss:Color="#FFFFFF"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s12">
+<Alignment ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+</Borders>
+<Font ss:Size="8"/>
+<Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+<NumberFormat ss:Format="Short Date"/>
+<Protection ss:Protected="0"/>
+</Style>
+<Style ss:ID="s13">
+<Alignment ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+</Borders>
+<Font ss:Size="8"/>
+<Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+<Protection ss:Protected="0"/>
+</Style>
+<Style ss:ID="s14">
+<Alignment ss:Horizontal="Right"/>
+<Font ss:Size="8" ss:Italic="1"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s15">
+<Alignment ss:Horizontal="Left"/>
+<Font ss:Size="8" ss:Italic="1"/>
+<NumberFormat ss:Format="Short Date"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s16">
+<Font ss:Size="8"/>
+</Style>
+<Style ss:ID="s17">
+<Font ss:Size="10" ss:Bold="1"/>
+</Style>
+<Style ss:ID="s18">
+<Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+<Font ss:Size="8" ss:Bold="1"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s19">
+<Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+<Font ss:Size="8" ss:Bold="1"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s20">
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="8"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s21">
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+</Borders>
+<Font ss:Size="8"/>
+<Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+<Protection ss:Protected="0"/>
+</Style>
+<Style ss:ID="s22">
+<Alignment ss:Vertical="Top" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="8" ss:Italic="1"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s23">
+<Alignment/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+</Borders>
+<Font ss:Size="8" ss:Bold="1"/>
+<NumberFormat ss:Format="#,##0.00"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s24">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+<Font ss:Size="8" ss:Bold="1"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s25">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+<Font ss:Size="8" ss:Bold="1"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s26">
+<Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+<Font ss:Size="8" ss:Bold="1"/>
+<NumberFormat ss:Format="General Date"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s27">
+<Alignment/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="8"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s28">
+<Alignment/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="8"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s29">
+<Alignment/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:Size="8"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s30">
+<Alignment ss:Vertical="Top"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+</Borders>
+<Font ss:Size="8"/>
+<Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+<Protection ss:Protected="0"/>
+</Style>
+<Style ss:ID="s31">
+<Alignment/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+</Borders>
+<Font ss:Size="8"/>
+<Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+<NumberFormat ss:Format="General Date"/>
+<Protection ss:Protected="0"/>
+</Style>
+<Style ss:ID="s32">
+<Alignment ss:Vertical="Top"/>
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+</Borders>
+<Font ss:Size="8"/>
+<Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+<Protection ss:Protected="0"/>
+</Style>
+<Style ss:ID="s33">
+<Font ss:Size="8" ss:Color="#FFFFFF"/>
+<Protection ss:Protected="1"/>
+</Style>
+<Style ss:ID="s34">
+<Font ss:Size="8" ss:Color="#FFFFFF"/>
+<Protection ss:Protected="1"/>
+</Style>
+</Styles>
+<Names>
+<NamedRange ss:Name="SCFLW" ss:RefersTo="='题头'!R10C10"/>
+<NamedRange ss:Name="SCAUC" ss:RefersTo="='题头'!R10C11"/>
+<NamedRange ss:Name="SCSSC" ss:RefersTo="='题头'!R10C12"/>
+<NamedRange ss:Name="SCBCU" ss:RefersTo="='题头'!R10C13"/>
+<NamedRange ss:Name="ESHDRPK412495" ss:RefersTo="='题头'!R10C14"/>
+<NamedRange ss:Name="EDHDRBVUPK412495" ss:RefersTo="='题头'!R11C5"/>
+<NamedRange ss:Name="EDHDRREFPK412495" ss:RefersTo="='题头'!R11C10"/>
+<NamedRange ss:Name="EDHDRNOTPK412495" ss:RefersTo="='题头'!R18C2"/>
+<NamedRange ss:Name="EEHDRPK412495" ss:RefersTo="='题头'!R18C14"/>
+<NamedRange ss:Name="ESREQPK_1PK10" ss:RefersTo="='题头'!R23C1"/>
+<NamedRange ss:Name="EDREQVALPK_1PK10" ss:RefersTo="='题头'!R23C7"/>
+<NamedRange ss:Name="EDREQTYPPK_1PK10" ss:RefersTo="='题头'!R23C14"/>
+<NamedRange ss:Name="EEREQPK_1PK10" ss:RefersTo="='题头'!R23C15"/>
+<NamedRange ss:Name="ESLNEPK1" ss:RefersTo="='行 (1 - 2)'!R14C2"/>
+<NamedRange ss:Name="EDLNEPRIPK1" ss:RefersTo="='行 (1 - 2)'!R14C10"/>
+<NamedRange ss:Name="EDLNEQTYPK1" ss:RefersTo="='行 (1 - 2)'!R14C11"/>
+<NamedRange ss:Name="EDLNEPDTPK1" ss:RefersTo="='行 (1 - 2)'!R14C12"/>
+<NamedRange ss:Name="EDLNENOTPK1" ss:RefersTo="='行 (1 - 2)'!R14C14"/>
+<NamedRange ss:Name="NPLNEQTFPK1" ss:RefersTo="='行 (1 - 2)'!R14C40"/>
+<NamedRange ss:Name="NPLNEPRFPK1" ss:RefersTo="='行 (1 - 2)'!R14C41"/>
+<NamedRange ss:Name="NPLNEPTFPK1" ss:RefersTo="='行 (1 - 2)'!R14C42"/>
+<NamedRange ss:Name="EELNEPK1" ss:RefersTo="='行 (1 - 2)'!R14C50"/>
+<NamedRange ss:Name="ESLNEPK2" ss:RefersTo="='行 (1 - 2)'!R15C2"/>
+<NamedRange ss:Name="EDLNEPRIPK2" ss:RefersTo="='行 (1 - 2)'!R15C10"/>
+<NamedRange ss:Name="EDLNEQTYPK2" ss:RefersTo="='行 (1 - 2)'!R15C11"/>
+<NamedRange ss:Name="EDLNEPDTPK2" ss:RefersTo="='行 (1 - 2)'!R15C12"/>
+<NamedRange ss:Name="EDLNENOTPK2" ss:RefersTo="='行 (1 - 2)'!R15C14"/>
+<NamedRange ss:Name="NPLNEQTFPK2" ss:RefersTo="='行 (1 - 2)'!R15C40"/>
+<NamedRange ss:Name="NPLNEPRFPK2" ss:RefersTo="='行 (1 - 2)'!R15C41"/>
+<NamedRange ss:Name="NPLNEPTFPK2" ss:RefersTo="='行 (1 - 2)'!R15C42"/>
+<NamedRange ss:Name="EELNEPK2" ss:RefersTo="='行 (1 - 2)'!R15C50"/>
+<NamedRange ss:Name="NPWSTPK1" ss:RefersTo="='行 (1 - 2)'!R19C42"/>
+<NamedRange ss:Name="WBT" ss:RefersTo="='行 (1 - 2)'!R19C44"/>
+<NamedRange ss:Name="EP" ss:RefersTo="='行 (1 - 2)'!R19C55"/>
+</Names>
+<Worksheet ss:Protected="1" ss:Name="题头">
+<Table>
+<Column ss:AutoFitWidth="0" ss:Width="9" />
+<Row ss:AutoFitHeight="0" ss:Height="18.0">
+<Cell>
+</Cell>
+<Cell ss:MergeAcross="11" ss:StyleID="s1">
+<Data ss:Type="String">GHDD国华定电201510凝汽器阳极块采购技改急需</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:MergeAcross="11" ss:StyleID="s2">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">询价</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">412495</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">公司</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">国华电力集团</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">结束日期</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s7">
+<Data ss:Type="DateTime">2015-10-20T10:46:09.000</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">买方</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">张仁贞ZRZ</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">询价币种</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">CNY</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">电话</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">报价币种</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">CNY</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">电子邮件</Data>
+</Cell>
+<Cell ss:HRef="mailto:zhangrz.wz@ghdzfd.com" ss:StyleID="s8">
+<ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">zhangrz.wz@ghdzfd.com</ss:Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">价格精确度</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">任意</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">供应商</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">上海光能自动化设备有限公司</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">供应商地点</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:MergeAcross="11" ss:StyleID="s9">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="15.0">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s10">
+<Data ss:Type="String">题头</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11">
+<Data ss:Type="String">RESPONSE</Data>
+<NamedCell ss:Name="SCFLW"/>
+</Cell>
+<Cell ss:StyleID="s11">
+<Data ss:Type="String">412495</Data>
+<NamedCell ss:Name="SCAUC"/>
+</Cell>
+<Cell ss:StyleID="s11">
+<Data ss:Type="String">-1</Data>
+<NamedCell ss:Name="SCSSC"/>
+</Cell>
+<Cell ss:StyleID="s11">
+<Data ss:Type="String">CNY</Data>
+<NamedCell ss:Name="SCBCU"/>
+</Cell>
+<Cell ss:StyleID="s11">
+<NamedCell ss:Name="ESHDRPK412495"/>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">报价有效截止日期</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s12">
+<NamedCell ss:Name="EDHDRBVUPK412495"/>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">参考编号</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s13">
+<NamedCell ss:Name="EDHDRREFPK412495"/>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s14">
+<Data ss:Type="String">实例：</Data>
+</Cell>
+<Cell ss:StyleID="s15">
+<Data ss:Type="DateTime">2015-10-19T00:00:00.000</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s16">
+<Data ss:Type="String">通知供应商</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:MergeAcross="11" ss:StyleID="s5">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s16">
+<Data ss:Type="String">通知采购员</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:MergeAcross="11" ss:StyleID="s13">
+<NamedCell ss:Name="EDHDRNOTPK412495"/>
+</Cell>
+<Cell ss:StyleID="s11">
+<NamedCell ss:Name="EEHDRPK412495"/>
+</Cell>
+</Row>
+<Row ss:Height="11.25"></Row><Row ss:AutoFitHeight="0" ss:Height="12.75">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s17">
+<Data ss:Type="String">需求</Data>
+</Cell>
+<Cell>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1">
+<Cell>
+</Cell>
+<Cell ss:MergeAcross="4" ss:StyleID="s18">
+<Data ss:Type="String">标题</Data>
+</Cell>
+<Cell ss:MergeAcross="6" ss:StyleID="s18">
+<Data ss:Type="String">报价值</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:MergeAcross="4" ss:StyleID="s19">
+<Data ss:Type="String">默认</Data>
+</Cell>
+<Cell ss:MergeAcross="6" ss:StyleID="s19">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell ss:StyleID="s11">
+<NamedCell ss:Name="ESREQPK_1PK10"/>
+</Cell>
+<Cell ss:MergeAcross="4" ss:StyleID="s20">
+<ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">付款方式</ss:Data>
+</Cell>
+<Cell ss:MergeAcross="2" ss:StyleID="s21">
+<NamedCell ss:Name="EDREQVALPK_1PK10"/>
+</Cell>
+<Cell ss:MergeAcross="3" ss:StyleID="s22">
+</Cell>
+<Cell ss:StyleID="s11">
+<Data ss:Type="String">TXT</Data>
+<NamedCell ss:Name="EDREQTYPPK_1PK10"/>
+</Cell>
+<Cell ss:StyleID="s11">
+<NamedCell ss:Name="EEREQPK_1PK10"/>
+</Cell>
+<Cell ss:Index="30" ss:StyleID="s11">
+<Data ss:Type="String">0-9-1</Data>
+</Cell>
+<Cell ss:Index="31" ss:StyleID="s11">
+<Data ss:Type="String">0-10-0</Data>
+</Cell>
+<Cell ss:Index="32" ss:StyleID="s11">
+<Data ss:Type="String">其它</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">文件下载时间</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s7">
+<Data ss:Type="DateTime">2015-10-19T17:14:33.000</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+  <FitToPage />                            
+  <Selected />                             
+  <DoNotDisplayGridlines />                
+  <ProtectObjects>False</ProtectObjects>   
+  <ProtectScenario>False</ProtectScenario> 
+  <AllowFilter/>                           
+  <AllowSizeCols/>                         
+  <AllowSizeRows/>                         
+</WorksheetOptions>                        
+
+<DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+<Range>R23C7:R23C9</Range>
+<Type>List</Type>
+<Value>R23C30:R23C32</Value>
+<InputTitle/>
+<InputMessage/>
+<ErrorMessage/>
+<ErrorTitle/>
+</DataValidation>
+</Worksheet>
+<Worksheet ss:Protected="1" ss:Name="行 (1 - 2)">
+<Names>
+<NamedRange ss:Name="_FilterDatabase" ss:RefersTo="='行 (1 - 2)'!R13C1:R15C1" ss:Hidden="1"/>
+</Names>
+<Table>
+<Column ss:AutoFitWidth="0" ss:Width="9" />
+<Row ss:AutoFitHeight="0" ss:Height="18.0">
+<Cell>
+</Cell>
+<Cell ss:MergeAcross="11" ss:StyleID="s1">
+<Data ss:Type="String">GHDD国华定电201510凝汽器阳极块采购技改急需</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:MergeAcross="11" ss:StyleID="s2">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">询价</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">412495</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">公司</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">国华电力集团</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">结束日期</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s7">
+<Data ss:Type="DateTime">2015-10-20T10:46:09.000</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">买方</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">张仁贞ZRZ</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">询价币种</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">CNY</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">电话</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">报价币种</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">CNY</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">电子邮件</Data>
+</Cell>
+<Cell ss:HRef="mailto:zhangrz.wz@ghdzfd.com" ss:StyleID="s8">
+<ss:Data ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40">zhangrz.wz@ghdzfd.com</ss:Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">价格精确度</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">任意</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">供应商</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+<Data ss:Type="String">上海光能自动化设备有限公司</Data>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:StyleID="s3">
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">供应商地点</Data>
+</Cell>
+<Cell ss:StyleID="s5">
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s6">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:MergeAcross="11" ss:StyleID="s9">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="15.0">
+<Cell>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s10">
+<Data ss:Type="String">行</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">报价合计 (CNY)</Data>
+</Cell>
+<Cell ss:Formula="=IF(ISNUMBER(WBT),WBT,&quot;&quot;)" ss:StyleID="s23">
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1">
+<Cell ss:StyleID="s11">
+<NamedCell ss:Name="_FilterDatabase"/>
+</Cell>
+<Cell ss:MergeAcross="2" ss:StyleID="s18">
+<Data ss:Type="String">行</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s18">
+<Data ss:Type="String">产品，版本</Data>
+</Cell>
+<Cell ss:StyleID="s24">
+<Data ss:Type="String">起始价格</Data>
+</Cell>
+<Cell ss:StyleID="s18">
+<Data ss:Type="String">单位</Data>
+</Cell>
+<Cell ss:StyleID="s25">
+<Data ss:Type="String">数量</Data>
+</Cell>
+<Cell ss:StyleID="s24">
+<Data ss:Type="String">报价</Data>
+</Cell>
+<Cell ss:StyleID="s25">
+<Data ss:Type="String">报价数量</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s26">
+<Data ss:Type="String">承诺日期</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s18">
+<Data ss:Type="String">通知采购员</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s18">
+<Data ss:Type="String">需要日期</Data>
+</Cell>
+<Cell ss:StyleID="s24">
+<Data ss:Type="String">标底</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s18">
+<Data ss:Type="String">类别</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s18">
+<Data ss:Type="String">收货地址</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s18">
+<Data ss:Type="String">通知供应商</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell ss:StyleID="s11">
+<Data ss:Type="String">1 凝汽器阳极块.φ300*φ21*35..Zn.</Data>
+<NamedCell ss:Name="_FilterDatabase"/>
+</Cell>
+<Cell ss:MergeAcross="2" ss:StyleID="s27">
+<Data ss:Type="String">1 凝汽器阳极块.φ300*φ21*35..Zn.</Data>
+<NamedCell ss:Name="ESLNEPK1"/>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s27">
+<Data ss:Type="String">157745</Data>
+</Cell>
+<Cell ss:StyleID="s28">
+</Cell>
+<Cell ss:StyleID="s27">
+<Data ss:Type="String">只</Data>
+</Cell>
+<Cell ss:StyleID="s29">
+<Data ss:Type="Number">4</Data>
+</Cell>
+<Cell ss:StyleID="s30">
+<NamedCell ss:Name="EDLNEPRIPK1"/>
+</Cell>
+<Cell ss:StyleID="s29">
+<Data ss:Type="Number">4</Data>
+<NamedCell ss:Name="EDLNEQTYPK1"/>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s31">
+<NamedCell ss:Name="EDLNEPDTPK1"/>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s32">
+<NamedCell ss:Name="EDLNENOTPK1"/>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s27">
+<Data ss:Type="String">17-11月-2015 11:19:37 至 17-11月-2015 11:19:37</Data>
+</Cell>
+<Cell ss:StyleID="s28">
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s27">
+<Data ss:Type="String">电站设备配件.汽机及化学设备.汽机本体设备</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s27">
+<Data ss:Type="String">国华定电</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s27">
+</Cell>
+<Cell ss:Index="40" ss:Formula="=IF(EDLNEQTYPK1=&quot;&quot;,0,IF(EDLNEQTYPK1&lt;0,0,EDLNEQTYPK1))" ss:StyleID="s33">
+<NamedCell ss:Name="NPLNEQTFPK1"/>
+</Cell>
+<Cell ss:Index="41" ss:Formula="=IF(EDLNEPRIPK1=&quot;&quot;,0,IF(EDLNEPRIPK1&lt;0,0,EDLNEPRIPK1))" ss:StyleID="s34">
+<NamedCell ss:Name="NPLNEPRFPK1"/>
+</Cell>
+<Cell ss:Index="42" ss:Formula="=NPLNEPRFPK1*NPLNEQTFPK1" ss:StyleID="s34">
+<NamedCell ss:Name="NPLNEPTFPK1"/>
+</Cell>
+<Cell ss:Index="50" ss:StyleID="s11">
+<NamedCell ss:Name="EELNEPK1"/>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell ss:StyleID="s11">
+<Data ss:Type="String">2 凝汽器阳极块.φ235*φ13*30..Zn.</Data>
+<NamedCell ss:Name="_FilterDatabase"/>
+</Cell>
+<Cell ss:MergeAcross="2" ss:StyleID="s27">
+<Data ss:Type="String">2 凝汽器阳极块.φ235*φ13*30..Zn.</Data>
+<NamedCell ss:Name="ESLNEPK2"/>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s27">
+<Data ss:Type="String">157746</Data>
+</Cell>
+<Cell ss:StyleID="s28">
+</Cell>
+<Cell ss:StyleID="s27">
+<Data ss:Type="String">只</Data>
+</Cell>
+<Cell ss:StyleID="s29">
+<Data ss:Type="Number">4</Data>
+</Cell>
+<Cell ss:StyleID="s30">
+<NamedCell ss:Name="EDLNEPRIPK2"/>
+</Cell>
+<Cell ss:StyleID="s29">
+<Data ss:Type="Number">4</Data>
+<NamedCell ss:Name="EDLNEQTYPK2"/>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s31">
+<NamedCell ss:Name="EDLNEPDTPK2"/>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s32">
+<NamedCell ss:Name="EDLNENOTPK2"/>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s27">
+<Data ss:Type="String">17-11月-2015 11:19:37 至 17-11月-2015 11:19:37</Data>
+</Cell>
+<Cell ss:StyleID="s28">
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s27">
+<Data ss:Type="String">电站设备配件.汽机及化学设备.汽机本体设备</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s27">
+<Data ss:Type="String">国华定电</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s27">
+</Cell>
+<Cell ss:Index="40" ss:Formula="=IF(EDLNEQTYPK2=&quot;&quot;,0,IF(EDLNEQTYPK2&lt;0,0,EDLNEQTYPK2))" ss:StyleID="s33">
+<NamedCell ss:Name="NPLNEQTFPK2"/>
+</Cell>
+<Cell ss:Index="41" ss:Formula="=IF(EDLNEPRIPK2=&quot;&quot;,0,IF(EDLNEPRIPK2&lt;0,0,EDLNEPRIPK2))" ss:StyleID="s34">
+<NamedCell ss:Name="NPLNEPRFPK2"/>
+</Cell>
+<Cell ss:Index="42" ss:Formula="=NPLNEPRFPK2*NPLNEQTFPK2" ss:StyleID="s34">
+<NamedCell ss:Name="NPLNEPTFPK2"/>
+</Cell>
+<Cell ss:Index="50" ss:StyleID="s11">
+<NamedCell ss:Name="EELNEPK2"/>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell>
+</Cell>
+<Cell ss:StyleID="s4">
+<Data ss:Type="String">文件下载时间</Data>
+</Cell>
+<Cell ss:MergeAcross="1" ss:StyleID="s7">
+<Data ss:Type="DateTime">2015-10-19T17:14:33.000</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="1" ss:Height="11.25">
+<Cell>
+</Cell>
+<Cell ss:Index="42" ss:Formula="=SUM(NPLNEPTFPK1:NPLNEPTFPK2)" ss:StyleID="s34">
+<NamedCell ss:Name="NPWSTPK1"/>
+</Cell>
+<Cell ss:Index="44" ss:Formula="=NPWSTPK1" ss:StyleID="s34">
+<NamedCell ss:Name="WBT"/>
+</Cell>
+<Cell ss:Index="55" ss:StyleID="s11">
+<NamedCell ss:Name="EP"/>
+</Cell>
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+  <FitToPage />                            
+  <Selected />                             
+  <DoNotDisplayGridlines />                
+  <ProtectObjects>False</ProtectObjects>   
+  <ProtectScenario>False</ProtectScenario> 
+  <AllowFilter/>                           
+  <AllowSizeCols/>                         
+  <AllowSizeRows/>                         
+</WorksheetOptions>                        
+
+<AutoFilter x:Range="R13C1:R15C1" xmlns="urn:schemas-microsoft-com:office:excel"></AutoFilter></Worksheet>
+</Workbook>
