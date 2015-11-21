@@ -1,6 +1,7 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 import xml.etree.ElementTree as ET
+import codecs
 
 NS = {'default': "urn:schemas-microsoft-com:office:spreadsheet", 'o': "urn:schemas-microsoft-com:office:office", 'x': "urn:schemas-microsoft-com:office:excel", 'ss': "urn:schemas-microsoft-com:office:spreadsheet", 'html': "http://www.w3.org/TR/REC-html40"}
 ROW = ['询价号', '电厂码', '电厂名', '采购员', '邮箱', '结束时间']
@@ -14,31 +15,36 @@ def xmlparser(file):
     table = sheet.find('default:Table', NS)
 
 
-    abbr, company = extract_company(table[1][1][0].text)
-    print abbr, company.encode('utf-8')
-    order_id = table[3][4][0].text
-    end_time = table[4][4][0].text
+    abbr_comp = table[1][1].find('default:Data', NS)
+    abbr_comp = '' if abbr_comp is None else abbr_comp.text
+    abbr, company = extract_company(abbr_comp)
 
-    agent = table[4][8][0].text
-    print agent.encode('utf-8')
-    email = table[6][9][0].text
+    order_id = table[3][4].find('default:Data', NS)
+    order_id = '' if order_id is None else order_id.text
+
+    end_time = table[4][4].find('default:Data', NS)
+    end_time = '' if end_time is None else end_time.text[0:10] + ' ' + end_time.text[11:19]
+
+    agent = table[4][8].find('default:Data', NS)
+    agent = '' if agent is None else agent.text
+
+    email = table[6][9].find('default:Data', NS)
+    email = '' if email is None else email.text
+
 
     order = [order_id, abbr, company, agent, email, end_time]
-    print order
 
-    f1 = open('result1.csv',  'w')
-    f1.write(','.join(ROW) + '\r\n')
-    f1.write(','.join([i.encode('utf-8') for i in order]))
+    with codecs.open('1.csv',  'w', encoding='gb2312') as f1:
+        f1.write((','.join(ROW) + '\r\n').decode('utf-8'))
+        f1.write(','.join(order))
 
     num_of_products = extract_range(sheet.get('{' + NS['ss'] + '}Name'))
-    print num_of_products
 
     start = 14
     p = []
     for i in xrange(start, start + num_of_products):
         pid = table[i][2][0].text
         pname = remove_id(table[i][1][0].text)
-        print pname.encode('utf-8')
         punit = table[i][4][0].text
         pamount = table[i][5][0].text
         prow = table[i][1][0].text
@@ -49,13 +55,11 @@ def xmlparser(file):
             pnotice = ''
         p.append([pid, pname, punit, pamount, prow, pnotice])
 
-    print p
 
-    f2 = open('result2.csv',  'w')
-
-    f2.write(','.join(PRODUCT) + '\n')
-    for r in p:
-        f2.write(','.join([i.encode('utf-8') for i in r]) + '\n')
+    with codecs.open('2.csv',  'w', encoding='gb2312') as f2:
+        f2.write((','.join(PRODUCT) + '\r\n').decode('utf-8'))
+        for r in p:
+            f2.write(','.join(r) + '\r\n')
 
 
 def extract_company(title):
@@ -73,7 +77,6 @@ def extract_company(title):
     
 
 def extract_range(row_range):
-    print row_range.encode('utf-8')
     num = ''
     for i in row_range[::-1]:
         j = ord(i)
@@ -88,10 +91,16 @@ def remove_id(name):
         if j == ' ':
             return name[(i + 1):]
 
+def read_file_path():
+    with open('filepath.txt', 'r') as f:
+        return f.read().splitlines()
+
+def main():
+    for f in read_file_path():
+        xmlparser(f)
 
 if __name__ == '__main__':
-    xmlparser('RFQ412457-Response.xml')
-
+    main()
 
 
 
