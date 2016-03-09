@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 import xml.etree.ElementTree as ET
 import codecs
+from Tkinter import Tk
+from tkFileDialog import askopenfilename
+
 
 NS = {'default': "urn:schemas-microsoft-com:office:spreadsheet", 'o': "urn:schemas-microsoft-com:office:office", 'x': "urn:schemas-microsoft-com:office:excel", 'ss': "urn:schemas-microsoft-com:office:spreadsheet", 'html': "http://www.w3.org/TR/REC-html40"}
 ROW = ['询价号', '电厂码', '电厂名', '采购员', '邮箱', '结束时间']
@@ -95,9 +98,13 @@ def read_file_path():
     with open('filepath.txt', 'r') as f:
         return f.read().splitlines()
 
+def get_file_path_gui():
+    Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
+    filename = askopenfilename()
+    return filename
+
 def main():
-    for f in read_file_path():
-        xmlparser(f)
+    xmlparser(get_file_path_gui())
 
 if __name__ == '__main__':
     main()
